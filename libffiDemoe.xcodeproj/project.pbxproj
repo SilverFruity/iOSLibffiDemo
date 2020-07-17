@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6808AD24C21029007D3A07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6808AC24C21029007D3A07 /* AppDelegate.m */; };
+		EE6808B024C21029007D3A07 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6808AF24C21029007D3A07 /* SceneDelegate.m */; };
+		EE6808B324C21029007D3A07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6808B224C21029007D3A07 /* ViewController.m */; };
+		EE6808B624C21029007D3A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6808B424C21029007D3A07 /* Main.storyboard */; };
+		EE6808B824C2102A007D3A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6808B724C2102A007D3A07 /* Assets.xcassets */; };
+		EE6808BB24C2102A007D3A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6808B924C2102A007D3A07 /* LaunchScreen.storyboard */; };
+		EE6808BE24C2102A007D3A07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6808BD24C2102A007D3A07 /* main.m */; };
+		EE6808C824C2102A007D3A07 /* libffiDemoeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6808C724C2102A007D3A07 /* libffiDemoeTests.m */; };
+		EE6808D324C2102A007D3A07 /* libffiDemoeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6808D224C2102A007D3A07 /* libffiDemoeUITests.m */; };
+		EE6808EC24C212C7007D3A07 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6808E924C212C7007D3A07 /* libffi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6808C424C2102A007D3A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6808A024C21029007D3A07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6808A724C21029007D3A07;
+			remoteInfo = libffiDemoe;
+		};
+		EE6808CF24C2102A007D3A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6808A024C21029007D3A07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6808A724C21029007D3A07;
+			remoteInfo = libffiDemoe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE6808A824C21029007D3A07 /* libffiDemoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libffiDemoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6808AB24C21029007D3A07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE6808AC24C21029007D3A07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE6808AE24C21029007D3A07 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EE6808AF24C21029007D3A07 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EE6808B124C21029007D3A07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE6808B224C21029007D3A07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE6808B524C21029007D3A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6808B724C2102A007D3A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6808BA24C2102A007D3A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6808BC24C2102A007D3A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6808BD24C2102A007D3A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE6808C324C2102A007D3A07 /* libffiDemoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libffiDemoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6808C724C2102A007D3A07 /* libffiDemoeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libffiDemoeTests.m; sourceTree = "<group>"; };
+		EE6808C924C2102A007D3A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6808CE24C2102A007D3A07 /* libffiDemoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libffiDemoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6808D224C2102A007D3A07 /* libffiDemoeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libffiDemoeUITests.m; sourceTree = "<group>"; };
+		EE6808D424C2102A007D3A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6808E124C212C7007D3A07 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		EE6808E224C212C7007D3A07 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		EE6808E324C212C7007D3A07 /* ffi_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		EE6808E424C212C7007D3A07 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		EE6808E524C212C7007D3A07 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		EE6808E624C212C7007D3A07 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		EE6808E724C212C7007D3A07 /* ffitarget_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		EE6808E824C212C7007D3A07 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		EE6808E924C212C7007D3A07 /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		EE6808EA24C212C7007D3A07 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		EE6808EB24C212C7007D3A07 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6808A524C21029007D3A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6808EC24C212C7007D3A07 /* libffi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6808C024C2102A007D3A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6808CB24C2102A007D3A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE68089F24C21029007D3A07 = {
+			isa = PBXGroup;
+			children = (
+				EE6808AA24C21029007D3A07 /* libffiDemoe */,
+				EE6808C624C2102A007D3A07 /* libffiDemoeTests */,
+				EE6808D124C2102A007D3A07 /* libffiDemoeUITests */,
+				EE6808A924C21029007D3A07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6808A924C21029007D3A07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6808A824C21029007D3A07 /* libffiDemoe.app */,
+				EE6808C324C2102A007D3A07 /* libffiDemoeTests.xctest */,
+				EE6808CE24C2102A007D3A07 /* libffiDemoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6808AA24C21029007D3A07 /* libffiDemoe */ = {
+			isa = PBXGroup;
+			children = (
+				EE6808AB24C21029007D3A07 /* AppDelegate.h */,
+				EE6808AC24C21029007D3A07 /* AppDelegate.m */,
+				EE6808E024C212C7007D3A07 /* libffi */,
+				EE6808AE24C21029007D3A07 /* SceneDelegate.h */,
+				EE6808AF24C21029007D3A07 /* SceneDelegate.m */,
+				EE6808B124C21029007D3A07 /* ViewController.h */,
+				EE6808B224C21029007D3A07 /* ViewController.m */,
+				EE6808B424C21029007D3A07 /* Main.storyboard */,
+				EE6808B724C2102A007D3A07 /* Assets.xcassets */,
+				EE6808B924C2102A007D3A07 /* LaunchScreen.storyboard */,
+				EE6808BC24C2102A007D3A07 /* Info.plist */,
+				EE6808BD24C2102A007D3A07 /* main.m */,
+			);
+			path = libffiDemoe;
+			sourceTree = "<group>";
+		};
+		EE6808C624C2102A007D3A07 /* libffiDemoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6808C724C2102A007D3A07 /* libffiDemoeTests.m */,
+				EE6808C924C2102A007D3A07 /* Info.plist */,
+			);
+			path = libffiDemoeTests;
+			sourceTree = "<group>";
+		};
+		EE6808D124C2102A007D3A07 /* libffiDemoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6808D224C2102A007D3A07 /* libffiDemoeUITests.m */,
+				EE6808D424C2102A007D3A07 /* Info.plist */,
+			);
+			path = libffiDemoeUITests;
+			sourceTree = "<group>";
+		};
+		EE6808E024C212C7007D3A07 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				EE6808E124C212C7007D3A07 /* ffitarget_arm64.h */,
+				EE6808E224C212C7007D3A07 /* ffitarget.h */,
+				EE6808E324C212C7007D3A07 /* ffi_arm.h */,
+				EE6808E424C212C7007D3A07 /* ffi_i386.h */,
+				EE6808E524C212C7007D3A07 /* ffitarget_x86_64.h */,
+				EE6808E624C212C7007D3A07 /* ffi_x86_64.h */,
+				EE6808E724C212C7007D3A07 /* ffitarget_arm.h */,
+				EE6808E824C212C7007D3A07 /* ffitarget_i386.h */,
+				EE6808E924C212C7007D3A07 /* libffi.a */,
+				EE6808EA24C212C7007D3A07 /* ffi.h */,
+				EE6808EB24C212C7007D3A07 /* ffi_arm64.h */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6808A724C21029007D3A07 /* libffiDemoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6808D724C2102A007D3A07 /* Build configuration list for PBXNativeTarget "libffiDemoe" */;
+			buildPhases = (
+				EE6808A424C21029007D3A07 /* Sources */,
+				EE6808A524C21029007D3A07 /* Frameworks */,
+				EE6808A624C21029007D3A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libffiDemoe;
+			productName = libffiDemoe;
+			productReference = EE6808A824C21029007D3A07 /* libffiDemoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6808C224C2102A007D3A07 /* libffiDemoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6808DA24C2102A007D3A07 /* Build configuration list for PBXNativeTarget "libffiDemoeTests" */;
+			buildPhases = (
+				EE6808BF24C2102A007D3A07 /* Sources */,
+				EE6808C024C2102A007D3A07 /* Frameworks */,
+				EE6808C124C2102A007D3A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6808C524C2102A007D3A07 /* PBXTargetDependency */,
+			);
+			name = libffiDemoeTests;
+			productName = libffiDemoeTests;
+			productReference = EE6808C324C2102A007D3A07 /* libffiDemoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6808CD24C2102A007D3A07 /* libffiDemoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6808DD24C2102A007D3A07 /* Build configuration list for PBXNativeTarget "libffiDemoeUITests" */;
+			buildPhases = (
+				EE6808CA24C2102A007D3A07 /* Sources */,
+				EE6808CB24C2102A007D3A07 /* Frameworks */,
+				EE6808CC24C2102A007D3A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6808D024C2102A007D3A07 /* PBXTargetDependency */,
+			);
+			name = libffiDemoeUITests;
+			productName = libffiDemoeUITests;
+			productReference = EE6808CE24C2102A007D3A07 /* libffiDemoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6808A024C21029007D3A07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = SilverFruity;
+				TargetAttributes = {
+					EE6808A724C21029007D3A07 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					EE6808C224C2102A007D3A07 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EE6808A724C21029007D3A07;
+					};
+					EE6808CD24C2102A007D3A07 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EE6808A724C21029007D3A07;
+					};
+				};
+			};
+			buildConfigurationList = EE6808A324C21029007D3A07 /* Build configuration list for PBXProject "libffiDemoe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE68089F24C21029007D3A07;
+			productRefGroup = EE6808A924C21029007D3A07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6808A724C21029007D3A07 /* libffiDemoe */,
+				EE6808C224C2102A007D3A07 /* libffiDemoeTests */,
+				EE6808CD24C2102A007D3A07 /* libffiDemoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6808A624C21029007D3A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6808BB24C2102A007D3A07 /* LaunchScreen.storyboard in Resources */,
+				EE6808B824C2102A007D3A07 /* Assets.xcassets in Resources */,
+				EE6808B624C21029007D3A07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6808C124C2102A007D3A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6808CC24C2102A007D3A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6808A424C21029007D3A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6808B324C21029007D3A07 /* ViewController.m in Sources */,
+				EE6808AD24C21029007D3A07 /* AppDelegate.m in Sources */,
+				EE6808BE24C2102A007D3A07 /* main.m in Sources */,
+				EE6808B024C21029007D3A07 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6808BF24C2102A007D3A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6808C824C2102A007D3A07 /* libffiDemoeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6808CA24C2102A007D3A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6808D324C2102A007D3A07 /* libffiDemoeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6808C524C2102A007D3A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6808A724C21029007D3A07 /* libffiDemoe */;
+			targetProxy = EE6808C424C2102A007D3A07 /* PBXContainerItemProxy */;
+		};
+		EE6808D024C2102A007D3A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6808A724C21029007D3A07 /* libffiDemoe */;
+			targetProxy = EE6808CF24C2102A007D3A07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE6808B424C21029007D3A07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6808B524C21029007D3A07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6808B924C2102A007D3A07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6808BA24C2102A007D3A07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6808D524C2102A007D3A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE6808D624C2102A007D3A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6808D824C2102A007D3A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B852MVZ4Z;
+				INFOPLIST_FILE = libffiDemoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libffiDemoe/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = silverfruity.libffiDemoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6808D924C2102A007D3A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B852MVZ4Z;
+				INFOPLIST_FILE = libffiDemoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libffiDemoe/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = silverfruity.libffiDemoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE6808DB24C2102A007D3A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B852MVZ4Z;
+				INFOPLIST_FILE = libffiDemoeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = silverfruity.libffiDemoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libffiDemoe.app/libffiDemoe";
+			};
+			name = Debug;
+		};
+		EE6808DC24C2102A007D3A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B852MVZ4Z;
+				INFOPLIST_FILE = libffiDemoeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = silverfruity.libffiDemoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libffiDemoe.app/libffiDemoe";
+			};
+			name = Release;
+		};
+		EE6808DE24C2102A007D3A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B852MVZ4Z;
+				INFOPLIST_FILE = libffiDemoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = silverfruity.libffiDemoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libffiDemoe;
+			};
+			name = Debug;
+		};
+		EE6808DF24C2102A007D3A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B852MVZ4Z;
+				INFOPLIST_FILE = libffiDemoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = silverfruity.libffiDemoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libffiDemoe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6808A324C21029007D3A07 /* Build configuration list for PBXProject "libffiDemoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6808D524C2102A007D3A07 /* Debug */,
+				EE6808D624C2102A007D3A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6808D724C2102A007D3A07 /* Build configuration list for PBXNativeTarget "libffiDemoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6808D824C2102A007D3A07 /* Debug */,
+				EE6808D924C2102A007D3A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6808DA24C2102A007D3A07 /* Build configuration list for PBXNativeTarget "libffiDemoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6808DB24C2102A007D3A07 /* Debug */,
+				EE6808DC24C2102A007D3A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6808DD24C2102A007D3A07 /* Build configuration list for PBXNativeTarget "libffiDemoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6808DE24C2102A007D3A07 /* Debug */,
+				EE6808DF24C2102A007D3A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6808A024C21029007D3A07 /* Project object */;
+}
