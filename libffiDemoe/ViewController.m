@@ -76,10 +76,16 @@ void libffi_register_add(){
     double (*add)(int, double) = NULL;
     
     //根据参数和返回值类型，设置cfi
-    ffi_type *argTyeps[2] = { &ffi_type_sint, &ffi_type_double };
-    ffi_type *rettype = &ffi_type_double;
+    unsigned argsCount = 2;
+    ffi_type **argTyeps = malloc(sizeof(ffi_type *) * argsCount);
+    argTyeps[0] = &ffi_type_sint;
+    argTyeps[1] = &ffi_type_double;
+    
+    ffi_type *rettype = malloc(sizeof(void *));
+    rettype = &ffi_type_double;
+    
     ffi_cif *cif = malloc(sizeof(ffi_cif));
-    ffi_prep_cif(cif, FFI_DEFAULT_ABI, sizeof(argTyeps) / sizeof(void *), rettype, argTyeps);
+    ffi_prep_cif(cif, FFI_DEFAULT_ABI, argsCount, rettype, argTyeps);
     
     //使用cif和外部指针，生成ffi_closure
     ffi_closure *closure = ffi_closure_alloc(sizeof(ffi_closure), (void *)&add);
@@ -87,7 +93,8 @@ void libffi_register_add(){
     //自定义信息
     NSString *userdata =  @"123";
     
-    //实际使用时, ffi_closure和userdata都需要一直存在
+    //实际使用时, ffi_type、ffi_closure和userdata都需要一直存在
+    //原因后续揭晓吧
     CFRetain((__bridge CFTypeRef)(userdata));
     
     //将add替换为闭包
